@@ -54,7 +54,7 @@
       <!-- <a href="index.html" class="mr-auto"><img src="assets/img/logo.png" alt="" class="img-fluid"></a> -->
       <!-- <h2>I'm a <span>Software Engineer</span>, <span>Web Developer</span>, <span>Machine learning Aficionado</span>.</h2> -->
 
-      <h2><span class="typed" data-typed-items="Software Engineer, Web Developer, ML Developer"></span></h2>
+      <h2><span class="typed" data-typed-items="Software Engineer, Backend Developer, Fullstack web Developer"></span></h2>
 
       <nav class="nav-menu d-none d-lg-block">
         <ul>
@@ -95,7 +95,7 @@
           <img src="assets/img/meks-01.jpeg" class="img-fluid" alt="">
         </div>
         <div class="col-lg-8 pt-4 pt-lg-0 content" data-aos="fade-left">
-          <h3>Software Engineer, Web &amp; ML Developer</h3>
+          <h3>Software Engineer; Backend &amp; Fullstack Developer</h3>
           <p class="font-italic">
             An avid Software Engineer with an intrinsic love for writing code to solve complex issues.
           </p>
@@ -122,7 +122,7 @@
             <!-- </div> -->
           </div>
           <p>
-            I have over 3years of professional experience in Full-Stack Web and Machine learning development,
+            I have over 3years of professional experience in Backend, Fullstack Web and Machine learning development,
             to mention a few.
           </p>
           <p>Oh, and yeah when I'm not coding I love to brawl at Chess.</p>
@@ -343,7 +343,7 @@
           <h3 class="resume-title">Summary</h3>
           <div class="resume-item pb-0">
             <h4>Chukwuemeka Momodu</h4>
-            <p><em>Innovative and timeline-driven full-stack software developer with 2+ years of experience building user-centered
+            <p><em>Innovative and timeline-driven backend & fullstack web developer with <span id="experienceInYears"></span>+ years of experience building user-centered
                 software solutions from initial concept to a final, polished deliverable.</em></p>
             <!-- <p>
             <ul>
@@ -399,7 +399,7 @@
           <h3 class="resume-title">Professional Experience</h3>
 
           <div class="resume-item">
-            <h4>Full-Stack Web/ML Developer</h4>
+            <h4>Backend/Fullstack Web Developer</h4>
             <h5>Jan 2018 - Present</h5>
             <p><em>Freelance</em></p>
             <!-- <p>
@@ -459,6 +459,10 @@
 
     </div>
   </section><!-- End Resume Section -->
+
+  <script>
+    document.getElementById("experienceInYears").innerHTML = (new Date().getFullYear() - 2019).toString();
+  </script>
 
   <!-- ======= Services Section ======= -->
   <section id="services" class="services">
