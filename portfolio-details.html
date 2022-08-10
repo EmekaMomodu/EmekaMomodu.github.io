@@ -84,8 +84,12 @@
   </main><!-- End #main -->
 
   <div class="credits">
-    2021 &copy; Emeka Momodu
+    <span id="year"> </span> &copy; Emeka Momodu
   </div>
+
+  <script>
+    document.getElementById("year").innerHTML = (new Date().getFullYear()).toString();
+  </script>
 
   <!-- Vendor JS Files -->
   <script src="assets/vendor/jquery/jquery.min.js"></script>
